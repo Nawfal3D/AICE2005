@@ -1,8 +1,3 @@
----
-marp: true
-theme: UoS
----
-
 # Introduction to Systematic Design of Multi-Component Systems
 
 Dr Nawfal Al Hashimy
@@ -35,27 +30,15 @@ Designing modern engineering systems often involves combining mechanical, electr
 A mobile robot, for example, may contain a motion controller, sensors, actuators, communication links, and onboard processing. Such systems cannot be designed effectively without breaking the problem down, coordinating sub-systems, and validating their integration. 
 
 ---
-# hello 
-<div class="twocols">
-
-## LHS Title
-- item
-- item
-- item
-- item
-
-<p class="break"></p>
-
-## RHS Title
-- item
-- item
-- item
-- item
-</div>
----
 
 
+<!-- _class: multicolumn -->
+# Slide with two columns
 
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+- Key points automatically create their own column.
+- The columns are distributed automatically.
 
 ---
 
