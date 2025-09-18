@@ -1,0 +1,54 @@
+/* @theme hsmw */
+
+@import "_hsmw";
+
+@import url('data:text/css, .bespoke-progress-bar {background-color: rgba(0, 105, 180, 1) !important;}');
+
+:root {
+    --hsmw-theme-color: #0a5387;
+}
+
+section {
+  /* replaces the massive data:image… string */
+background: #fff url("../images/logo-blue.png")
+              no-repeat right 16px bottom -20px / 200px auto;
+}
+
+
+
+section.chapter-alt {
+    background-image:
+        url("../images/logo-blue.png") linear-gradient(90deg, var(--hsmw-theme-color) 66%, rgba(255, 255, 255, 255) 66%);
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, auto;
+    background-position: 1059px 666px, 0 0;
+}
+
+/* title slide */
+section.title {
+    background-image: url("../images/logo-blue.png");
+}
+
+/* Last slide */
+section.end {
+
+  background-color: #0069b4; /* the solid backdrop */
+  background-image: url("../images/logo-white.png");
+  background-repeat: no-repeat;
+  background-position: right 16px bottom -20px;
+  background-size: 200px auto;
+
+
+    }
+
+section.title-bg::before {
+    
+    background: #fff url("../images/logo-blue.png")
+              no-repeat right 16px bottom -20px / 200px auto;
+            }
+
+section.end-bg::before {
+    background: #fff url("../images/logo-blue.png")
+              no-repeat right 16px bottom -20px / 200px auto;
+            }
+
